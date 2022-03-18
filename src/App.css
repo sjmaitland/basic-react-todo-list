@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container {
+  align-items: center;
+  column-count: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 1em auto;
+  padding: 1em;
+  width: 50%;
+}
+
+.title {
+  font-family: 'Walter Turncoat', cursive;
+  font-size: 32px;
+  padding: 0 0 0.9em 0;
+}
+
+.container--form {
+  flex-direction: row;
+  width: 66%;
+}
+
+form {
+  width: 100%;
+}
+
+input[type="text"] {
+  border: 2px dashed black;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 0.5em;
+  width: 75%;
+}
+
+button {
+  background-color: tomato;
+  border-bottom: 3px solid lightsalmon;
+  border-left: 3px solid lightsalmon;
+  border-right: 3px solid lightsalmon;
+  border-top: 3px solid lightsalmon;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 1em;
+  padding: 0.75em;
+}
+
+.container--list {
+  border-radius: 8px;
+  margin-top: 2em;
+  width: 66%;
+}
+
+input[type="checkbox"] {
+  border: 2px solid black;
+  border-radius: 8px;
+  height: 1.33em;
+  margin: 0 1em 0 0;
+  transform: translateY(0.02em);
+  width: 1.33em;
+}
+
+
+li {
+  border: 1px dashed black;
+  border-radius: 8px;
+  list-style: none;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.task--list {
+  font-family: 'Walter Turncoat', cursive;
+  font-size: 1.4em;
+  font-weight: bold;
+
+}
+
+.task--done {
+  color: tomato;
+  font-weight: bold;
+  text-decoration: line-through;
+}
